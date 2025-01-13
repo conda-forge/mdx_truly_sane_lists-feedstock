@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - markdown >=2.6
     - python >={{ python_min }}
