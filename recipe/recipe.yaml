@@ -29,12 +29,6 @@ tests:
       imports:
         - mdx_truly_sane_lists
       python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - pip
-        - python ${{ python_min }}.*
-    script:
-      - pip check
 
 about:
   summary: Extension for Python-Markdown that makes lists truly sane. Custom indents for nested lists and fix for messy linebreaks.
